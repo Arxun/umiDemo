@@ -72,7 +72,7 @@ class NormalLoginForm extends React.Component {
           Or <a href="/">register now!</a>
           </Form.Item>
         </Form>
-        {/* {data.map(item => <div key={item.value}>{item.name}</div>)} */}
+        {data.map(item => <div key={item.value}>{item.name}</div>)}
       </>
 
     );
